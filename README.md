@@ -46,14 +46,14 @@ The process of detecting the dogs in the input images consisted of two steps. Th
 
 Even though the goal of the project is to build a dog breed classifier using transfer learning, this part of the project was useful for understanding the fundamental of CNNs and how they work.
 
-The target for this task was to build a CNN with an accuracy greater than >1%. The network described above achieved 7.665% without any fine-tuning of parameters or data augmentation.
+After compiling the above model, and fitting it using the train and validation data, I then tested the model on our test images, and saw that the model predicted the dog breed correctly for 1.0766% of the test images.
 
 # Build a CNN using transfer learning to Classify Dog Breeds
 
 To reduce training time without sacrificing accuracy, we can train a CNN using transfer learning. In the following step, we used transfer learning to train your own CNN.
 I chose to build my CNN by leveraging a Resnet 50 CNN trained on the ImageNet database.
 
-The accuracy which I obtained is 78.3% which is a good accuracy score.
+The accuracy which I obtained is 80.7416% which is a good accuracy score.
 
 # Write an Algorithm and test it.
 
@@ -75,11 +75,11 @@ So to improve our Algorithm, we can do the following
 
 Increase the training data by including more pictures of different dog breeds.
 
-The main findings of the code can be found at the post available [here](https://lakshmanraj23.medium.com/identifying-dog-breeds-using-convolutional-neural-networks-e1a039db87e4)
-
 Image Augmentation
 
 Accuracy can also be improved by increasing the depth of the neural network.
+
+The main findings of the code can be found at the post available [here](https://lakshmanraj23.medium.com/identifying-dog-breeds-using-convolutional-neural-networks-e1a039db87e4)
 
 # Licensing, Authors, Acknowledgements
 
